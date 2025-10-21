@@ -1,0 +1,26 @@
+.navLink{
+    display: flex;
+    height: 48px;
+    align-items: center;
+    padding: 12px;
+    margin: 2px 0px;
+    background-color: rgb(244, 244, 244);
+    font-size: 10px;
+    font-weight: 400;
+    /*flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3*/
+    &:hover{
+        color: blue;
+        background-color: lightblue;
+    }
+}
+.navLinkActive{
+    display: flex;
+    height: 48px;
+    align-items: center;
+    padding: 12px;
+    margin: 2px 0px;
+    font-size: 10px;
+    font-weight: 400;
+    background-color: lightblue;
+    color: blue;
+}
